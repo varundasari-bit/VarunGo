@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Comic Book</title>
+  <style>
+   h1{
+    
+    background-color: #ddad45;
+    color: rgb(199, 0, 0);
+    padding-top: 30px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 30px;
+} 
+
+    .box {
+    
+   margin: 10px 300px 20px 260px;
+
+  }
+    body {
+      margin: 0;
+      background: #ccbe99;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+    }
+    .avengers{
+        border-radius: 20px;
+        height: 222px;
+        width: 170px;
+        float: left;
+    }
+    
+    p{
+        font-size: 15px;
+        text-align: right;
+        font-family: arial;
+        font-weight: bolder;
+        padding-top: 50px;
+    }
+
+    .p2{
+        font-size: 12px;
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: lighter;
+    }
+
+    .wrapper {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-auto-rows: minmax(200px, auto);
+      gap: 10px;
+      padding: 20px;
+    }
+
+    .panel {
+      background: #fff;
+      border: 5px solid #0c0c0c;
+      padding: 20px;
+      font-size: 1.2rem;
+      box-shadow: 5px 5px 0 #111111;
+      transition: transform 0.2s ease;
+    }
+
+    .panel:hover {
+      transform: scale(1.02);
+    }
+
+    .hero {
+      grid-column: span 2;
+      background: #ffcc00;
+      font-size: 2rem;
+      text-align: center;
+      padding-top: 80px;
+    }
+
+    .dialogue {
+    
+      padding-top: 50px;
+      background: #65edff;
+      border-radius: 50% 50% 0 0;
+    }
+
+    .action {
+        
+      background: #fc3a3a;
+      color: white;
+      font-weight: bold;
+      font-size: 2rem;
+      text-align: center;
+      border-radius: 50% 50% 50% 50%;
+      }
+
+    .narration {
+      font-style: italic;
+      background: #88fd8c;
+    }
+
+    .dialogue2 {
+      padding-top: 50px; 
+      background: #ff65a0;
+      border-radius: 50% 50% 400% 50%;
+    }
+
+    img {
+      border-radius: 20px;
+      width: 300px;        
+      height: auto;
+    }
+
+    .ending {
+      grid-column: span 2;
+      text-align: center;
+      background: #b593f5;
+    }
+    
+    a{
+        margin-right: 20px;
+        background-color: #ff65a0;
+    }
+  </style>
+</head>
+<body>
+     <div style="text-align: right;">
+        
+        <a href="https://en.wikipedia.org/wiki/Avengers:_Endgame">Home</a>
+        <a href="about.html">About</a>
+    </div>
+    <div class="box">
+        <div class="wrapper">
+    <div class="panel hero">
+       
+        <img src="C:\Users\HP\Desktop\nen\Avengers_Endgame_poster.jpg" alt="Poster of Avengers Endgame Movie" class="avengers">
+         <br>Hero: Wanda Maximoff 
+        <P><del>Scene CREDITS from </del><br><i>Avengers Endgame</i></P>
+    
+    </div>
+    <div class="panel dialogue"><br>WANDA:"You took everything from me !!!"</div>
+
+    <div class="panel action">*BOOM!* <p class="p2">she unleashes all her grief and fury through her chaos magic, overwhelming Thanos</p></div>
+    <div class="panel dialogue2"><br>THANOS:"I don't even know who you are??...."<br>WANDA:"You will"</div>
+    <div class="panel narration"> Without hesitation, she gets of her Scarlet Witch energy. She lifts Thanos off the ground and tears at his armor and sword apart, nearly crushing him with the strong power of her abilities.</div>
+    
+    <div class="panel ending">
+        <img src="C:\Users\HP\Desktop\nen\w.jpg" alt="Wanda Maximoff in Avengers Endgame">
+        To be continued...in next parts<br>
+      <div style="text-align: right;"><a href="https://en.wikipedia.org/wiki/Avengers:_Endgame" >go to wikipedia</a></div>  
+    </div>
+  </div>
+    </div>
+<div style="text-align: right;"><h1 >Scene Analysis</h1></div>
+  
+</body>
+</html>
